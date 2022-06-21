@@ -15,27 +15,27 @@ export default function CuveeExclusive4() {
             à la fois sur le design conçu par les artistes et les artistes eux-mêmes. </p>
 
             <div class="mt-8 inline-block">
-                <Image class="rounded-2" src="/carte.svg" alt="Cuvée Exclusive" width={300} height={300} />
+                <Image class="rounded-2 object-cover" src="/carte.svg" alt="Cuvée Exclusive" width={300} height={180} />
             </div>
 
-            <div class="inline-block">
-                <Image class="rounded-2 ml-2" src="/carte2.svg" alt="Cuvée Exclusive" width={300} height={180} />
+            <div class="inline-block ml-2">
+                <Image class="rounded-2 object-cover" src="/carte2.svg" alt="Cuvée Exclusive" width={300} height={180} />
             </div>
 
             <div>
-                <hr class="mt-4 bg-black opacity-20 h-10 w-78"></hr>
+                <hr class="mt-4 bg-black opacity-10 h-10 w-85"></hr>
             </div> 
 
         <div>
-            <div class="absolute left-6 mt-6 inline-block">
-                <Image  src="/ArrowGauche.svg" alt="Cuvée Exclusive" width={80} height={120} />
+            <div class="absolute left-4 mt-6 inline-block">
+                <Image  src="/ArrowGauche.svg" alt="Cuvée Exclusive" width={30} height={30} />
                 <Link href="/cuvee_exclusive_3"><a class="inline-block text-black2">PRÉCÉDENT</a></Link>
 
             </div>
 
-            <div class=" absolute left-24 mt-6 inline-block">
+            <div class=" absolute left-40 mt-6 inline-block">
             <Link href="/home"><a class="inline-block opacity-60">SUIVANT</a></Link>
-                <Image  src="/ArrowDroite.svg" alt="Cuvée Exclusive" width={80} height={120} />
+                <Image  src="/ArrowDroite.svg" alt="Cuvée Exclusive" width={30} height={30} />
             </div>
             
         </div>

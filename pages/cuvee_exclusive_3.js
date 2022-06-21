@@ -16,27 +16,27 @@ export default function CuveeExclusive3() {
             Une box au design unique, à collectionner.</p>
 
             <div class="mt-8 inline-block">
-                <Image class="rounded-2" src="/packaging.png" alt="Cuvée Exclusive" width={300} height={200} />
+                <Image class="rounded-2 object-cover" src="/packaging.png" alt="Cuvée Exclusive" width={300} height={200} />
             </div>
 
-            <div class="inline-block">
-                <Image class="rounded-2 ml-2" src="/packaging2.png" alt="Cuvée Exclusive" width={300} height={200} />
+            <div class="inline-block ml-2">
+                <Image class="rounded-2 object-cover" src="/packaging2.png" alt="Cuvée Exclusive" width={300} height={200} />
             </div>
 
             <div>
-                <hr class="mt-4 bg-black opacity-20 h-10 w-78"></hr>
+                <hr class="mt-4 bg-black opacity-10 h-10 w-85"></hr>
             </div> 
 
         <div>
-            <div class="absolute left-6 mt-6 inline-block">
-                <Image  src="/ArrowGauche.svg" alt="Cuvée Exclusive" width={80} height={120} />
+            <div class="absolute left-4 mt-6 inline-block">
+                <Image  src="/ArrowGauche.svg" alt="Cuvée Exclusive" width={30} height={30}/>
                 <Link href="/cuvee_exclusive_2"><a class="inline-block text-black2 opacity-60">PRÉCÉDENT</a></Link>
 
             </div>
 
-            <div class=" absolute left-24 mt-6 inline-block">
+            <div class=" absolute left-40 mt-6 inline-block">
                 <Link href="/cuvee_exclusive_4"><a class="inline-block">SUIVANT</a></Link>
-                <Image  src="/ArrowDroite.svg" alt="Cuvée Exclusive" width={80} height={120} />
+                <Image  src="/ArrowDroite.svg" alt="Cuvée Exclusive" width={30} height={30} />
             </div>
             
         </div>

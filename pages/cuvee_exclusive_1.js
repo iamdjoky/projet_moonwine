@@ -16,26 +16,26 @@ export default function CuveeExclusive() {
             Parfois, rouge, blanc, orange, rosé, ou pet’nat, tout dépend d’un seul élément : notre rencontre avec l’Homme. </p>
 
             <div class="mt-8 inline-block">
-                <Image class="rounded-2" src="/CuveeExclusive.png" alt="Cuvée Exclusive" width={300} height={200} />
+                <Image class="rounded-2 object-cover" src="/CuveeExclusive.png" alt="Cuvée Exclusive" width={300} height={200} />
             </div>
 
             <div class="inline-block ml-2">
-                <Image class="rounded-2" src="/CuveeExclusive2.png" alt="Cuvée Exclusive" width={300} height={200} />
+                <Image class="rounded-2 object-cover" src="/CuveeExclusive2.png" alt="Cuvée Exclusive" width={300} height={200} />
             </div>
 
             <div>
-                <hr class="mt-4 bg-black opacity-20 h-10 w-78"></hr>
+                <hr class="mt-4 bg-black opacity-20 h-10 w-85"></hr>
             </div> 
         
         <div>
-            <div class="absolute left-6 mt-6 inline-block">
-                <Image class="inline-block" src="/ArrowGauche.svg" alt="Cuvée Exclusive" width={50} height={50} />
+            <div class="absolute left-4 mt-6 inline-block">
+                <Image class="inline-block" src="/ArrowGauche.svg" alt="Cuvée Exclusive" width={30} height={30} />
                 <Link href="/home"><a class="inline-block text-black2">PRÉCÉDENT</a></Link>
             </div>
 
-            <div class="absolute left-24 mt-6 inline-block">
+            <div class="absolute left-40 mt-6 inline-block">
             <Link href="/cuvee_exclusive_2"><a class="inline-block">SUIVANT</a></Link>
-                <Image class="inline-block" src="/ArrowDroite.svg" alt="Cuvée Exclusive" width={20} height={20} />
+                <Image class="inline-block" src="/ArrowDroite.svg" alt="Cuvée Exclusive" width={30} height={30} />
             </div>
             
 
