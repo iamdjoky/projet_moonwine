@@ -6,8 +6,8 @@ import styles from '../styles/Home.module.css'
 export default function Section() {
     return ( 
       
-        <div className={styles.body}>
-            <div class="min-h-screen width-screen bg-red">
+        <div className={styles.certificate}>
+            <div class="min-h-screen width-screen h-full bg-red bg-local">
                 <Image class="mt-2" src="/logo.svg" alt="site logo" width={140} height={85} />
 
                 <h1 class="ml-40 text-white text-56 text-center mt-22 w-55">JE CERTIFIE QUE J’AI  L’ÂGE LÉGAL REQUIS POUR CONSOMMER DE L’ALCOOL. </h1>

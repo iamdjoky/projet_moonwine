@@ -3,8 +3,12 @@
   padding: 0 2rem;
 }
 
-.body{
-  background: url('/Fond.png') no-repeat bottom center/contain;
+.certificate{
+  background: url('/Fond.png') no-repeat bottom center/contain !important;
+ 
+}
+.certificate {
+  background: url("../public/Fond.png") !important;
 }
 .main {
   min-height: 100vh;

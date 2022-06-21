@@ -13,6 +13,9 @@ h2 {
 p{
     font-family: "Inter";
 }
+.certificate {
+    background-image: url('../public/Fond.png');
+}
 
 @tailwind utilities;
 
