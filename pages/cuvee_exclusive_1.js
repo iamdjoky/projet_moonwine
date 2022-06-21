@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link';
 
 export default function CuveeExclusive() {
     return ( 
@@ -15,25 +16,25 @@ export default function CuveeExclusive() {
             Parfois, rouge, blanc, orange, rosé, ou pet’nat, tout dépend d’un seul élément : notre rencontre avec l’Homme. </p>
 
             <div class="mt-8 inline-block">
-                <Image  src="/CuveeExclusive.png" alt="Cuvée Exclusive" width={280} height={180} />
+                <Image class="rounded-2" src="/CuveeExclusive.png" alt="Cuvée Exclusive" width={300} height={200} />
             </div>
 
-            <div class="inline-block">
-                <Image  src="/CuveeExclusive2.svg" alt="Cuvée Exclusive" width={300} height={180} />
+            <div class="inline-block ml-2">
+                <Image class="rounded-2" src="/CuveeExclusive2.png" alt="Cuvée Exclusive" width={300} height={200} />
             </div>
 
-            <div class="after:content absolute bg-black left-0 bottom-0 h-1 w-full ">
-
-            </div>
+            <div>
+                <hr class="mt-4 bg-black opacity-20 h-10 w-78"></hr>
+            </div> 
         
         <div>
             <div class="absolute left-6 mt-6 inline-block">
                 <Image class="inline-block" src="/ArrowGauche.svg" alt="Cuvée Exclusive" width={50} height={50} />
-                <p class="inline-block text-black2 opacity-60">PRÉCÉDENT</p>
+                <Link href="/home"><a class="inline-block text-black2">PRÉCÉDENT</a></Link>
             </div>
 
             <div class="absolute left-24 mt-6 inline-block">
-                <p class="inline-block">SUIVANT</p>
+            <Link href="/cuvee_exclusive_2"><a class="inline-block">SUIVANT</a></Link>
                 <Image class="inline-block" src="/ArrowDroite.svg" alt="Cuvée Exclusive" width={20} height={20} />
             </div>
             

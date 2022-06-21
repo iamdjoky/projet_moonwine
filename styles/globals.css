@@ -6,6 +6,13 @@ h1{
     font-size : 62.5%;
     font-family: "Molgak";
 }
+h2 {
+    font-family: "Molgak";
+}
+
+p{
+    font-family: "Inter";
+}
 
 @tailwind utilities;
 

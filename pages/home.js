@@ -7,12 +7,13 @@ export default function Section() {
     return ( 
     <div>
         <Link href="/panier"><a class="text-16">Panier vide </a></Link>
-        <Link href="/research"><a class="text-16">Rechercher </a></Link>
         <Link href="/cuvee_exclusive_1"><a class="text-16">Cuvée 1 </a></Link>
         <Link href="/cuvee_exclusive_2"><a class="text-16">Cuvée 2 </a></Link>
         <Link href="/cuvee_exclusive_3"><a class="text-16">Cuvée 3 </a></Link>
         <Link href="/cuvee_exclusive_4"><a class="text-16">Cuvée 4 </a></Link>
         <Link href="/filter"><a class="text-16">Filter </a></Link>
+        <Link href="/research"><a class="text-16">Rechercher </a></Link>
+
 
         <div class="bg-black2 text-yellow min-h-screen width-screen ">
 
@@ -71,18 +72,23 @@ export default function Section() {
           
         </div>
 
+        <div class="bg-yellow">
+            <h1 class="text-220 ">NATURAL WIN</h1>
+            <h2 class="text-220">AL WINE CLUB</h2>
+        </div>
+
         <div class="bg-yellow min-h-screen width-screen">
             
-            <button class="ml-40 mt-4 text-center bg-green text-white text-12 px-2 py-1 rounded-2_5">LA CAVE EXCLUSIVE</button>
+            <button class="ml-75 mt-4 text-center bg-green text-white text-12 px-2 py-1 rounded-2_5">LA CAVE EXCLUSIVE</button>
 
 
-            <h1 class="mt-2  ml-40 text-56 text-black2 w-32 text-center ">NOS BOUTEILLES À L'UNITÉ</h1>
+            <h1 class="mt-2  ml-55 text-56 text-black2 w-32 text-center ">NOS BOUTEILLES À L'UNITÉ</h1>
 
-            <h4 class="ml-40 text-center w-30 text-black2 text-14">Il vous est possible de commander une bouteille à l'unité afin de pouvoir découvrir des cuvées différentes ou ré-apprécier des vins qui vous ont marqué.</h4>
+            <h4 class="ml-55 text-center w-30 text-black2 text-14">Il vous est possible de commander une bouteille à l'unité afin de pouvoir découvrir des cuvées différentes ou ré-apprécier des vins qui vous ont marqué.</h4>
 
             
             <div class="ml-40">
-                <button class="ml-30 mt-4 text-center bg-red text-white text-14 px-4 py-2 rounded-2_5">VOIR TOUTE LA CAVE EXCLUSIVE</button>
+                <button class="ml-26 mt-4 text-center bg-red text-white text-14 px-4 py-2 rounded-2_5">VOIR TOUTE LA CAVE EXCLUSIVE</button>
             
             </div> 
         </div>
