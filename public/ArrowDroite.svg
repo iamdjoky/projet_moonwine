@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="66" height="24" viewBox="0 0 66 24">
+  <g id="Arrow" transform="translate(66 24) rotate(-180)">
+    <g id="Arrow-2" data-name="Arrow" transform="translate(219.397 -2039.5) rotate(90)">
+      <g id="Rectangle_23" data-name="Rectangle 23" transform="translate(2063.5 219.397) rotate(180)" fill="#1a3928" stroke="#707070" stroke-width="1" opacity="0">
+        <rect width="24" height="40" stroke="none"/>
+        <rect x="0.5" y="0.5" width="23" height="39" fill="none"/>
+      </g>
+      <path id="Tracé_44" data-name="Tracé 44" d="M8.4-63.14a27.262,27.262,0,0,0,4.976,7.7,18.122,18.122,0,0,0,6.57,4.3,17.26,17.26,0,0,0-6.57,4.267A27.785,27.785,0,0,0,8.4-39.14H9.484A22.3,22.3,0,0,1,14.907-46.9a20.236,20.236,0,0,1,7.783-4.235,20.236,20.236,0,0,1-7.783-4.235A22.3,22.3,0,0,1,9.484-63.14Z" transform="translate(2000.36 196.708) rotate(90)" fill="#1a3928"/>
+      <path id="Ligne_5" data-name="Ligne 5" d="M64,.581H0V-.5H64Z" transform="translate(2051.54 153.397) rotate(90)" fill="#1a3928"/>
+    </g>
+  </g>
+</svg>
