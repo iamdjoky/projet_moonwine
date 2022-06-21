@@ -3,7 +3,7 @@ export default function Research() {
     return ( 
         <div class="ml-8"> 
             
-            <button class="absolute top-4 right-4 text-center text-green border-solid border-2 border-green border-opacity-10 text-18 px-4 py-3 rounded-round">X</button>
+            <button class="absolute top-4 left-4 text-center text-green border-solid border-2 border-green border-opacity-10 text-18 px-3_5 py-3 rounded-round"><Image  src="/croix.svg" alt="site logo" width={16} height={16} /></button>
 
             <h1 class="mt-14 text-72 text-green opacity-20">Recherche</h1>
                 

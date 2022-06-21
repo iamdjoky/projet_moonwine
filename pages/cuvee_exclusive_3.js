@@ -4,7 +4,7 @@ export default function CuveeExclusive3() {
     return ( 
         <div class="ml-6">
 
-            <button class="absolute top-4 left-4 text-center text-green border-solid border-2 border-green border-opacity-10 text-18 px-4 py-3 rounded-round">X</button>
+<button class="absolute top-4 left-4 text-center text-green border-solid border-2 border-green border-opacity-10 text-18 px-3_5 py-3 rounded-round"><Image  src="/croix.svg" alt="site logo" width={16} height={16} /></button>
 
             <h3 class="mt-20 text-16">3/4</h3>
 
@@ -24,9 +24,12 @@ export default function CuveeExclusive3() {
         <div>
             <div class="absolute left-6 mt-6 inline-block">
                 <Image  src="/ArrowGauche.svg" alt="Cuvée Exclusive" width={80} height={120} />
+                <p class="inline-block text-black2 opacity-60">PRÉCÉDENT</p>
+
             </div>
 
             <div class=" absolute left-24 mt-6 inline-block">
+                <p class="inline-block">SUIVANT</p>
                 <Image  src="/ArrowDroite.svg" alt="Cuvée Exclusive" width={80} height={120} />
             </div>
             
